@@ -1,0 +1,21 @@
+{
+  "name": "StancBaniZenit_Bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "0.57.0",
+    "telegraf": "^4.8.1"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
