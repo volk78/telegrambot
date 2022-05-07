@@ -17,7 +17,7 @@ bot.command('select', async (ctx) => {
     console.error(e)
   }
 })
-
+// основная функция
 function addActionBot(btnName, src, text) {
   bot.action(btnName, async (ctx) => {
     try {
